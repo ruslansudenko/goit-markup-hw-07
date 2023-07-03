@@ -1,0 +1,243 @@
+@media screen and (min-width: 768px) {
+  /** ===========  HEADER  ========= */
+
+  .logo-dark {
+    margin-right: 120px;
+  }
+
+  .bar-menu-btn {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    gap: 40px;
+  }
+
+  .menu-link {
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--title-color);
+    transition: color var(--h-focus-transition);
+  }
+
+  .menu-link:hover,
+  .menu-link:focus {
+    color: var(--hover-color);
+  }
+
+  .menu-item {
+    position: relative;
+  }
+
+  .underline {
+    color: var(--hover-color);
+  }
+
+  .underline::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: -2px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--hover-color);
+    border-radius: 2px;
+  }
+
+  .adress {
+    display: flex;
+    font-style: normal;
+    margin-left: auto;
+    align-items: center;
+  }
+
+  .mobile-contacts {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .adress-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    color: var(--main-text-color);
+  }
+
+  /*! ===========  HEADER  ========= */
+  /** ============ HERO  =========== */
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/main-page/hero-img-tablet.jpg');
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/main-page/hero-img-tab-2x.jpg');
+    }
+  }
+
+  .hero-title {
+    max-width: 496px;
+    margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+  }
+
+  /* !============ HERO  =========== */
+  /** !===========  VALUES =========== */
+
+  .value-title {
+    text-align: left;
+  }
+
+  .value-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+
+  .value-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /* !===========  VALUES =========== */
+  /* * ==========  MODAL WINDOW  ======= */
+
+  .backdrop-window {
+    width: 408px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  /* ! ==========  MODAL WINDOW  ======= */
+}
+
+/* !================================= */
+/* !================================= */
+/* !================================= */
+/* !================================= */
+/* !================================= */
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /** ===========  HEADER  ========= */
+
+  .logo-dark {
+    margin-right: 76px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 40px;
+  }
+
+  .mobile-contacts {
+    flex-direction: row;
+  }
+
+  .adress-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    transition: color var(--h-focus-transition);
+  }
+
+  .adress-link:hover,
+  .adress-link:focus {
+    color: var(--hover-color);
+  }
+
+  /*! ===========  HEADER  ========= */
+
+  /** ============ HERO  =========== */
+
+  .hero {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../images/main-page/hero-img.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url('../images/main-page/hero-img-2x.jpg');
+    }
+  }
+
+  .hero-title {
+    max-width: 496px;
+    margin-bottom: 48px;
+  }
+
+  /* !============ HERO  =========== */
+  /** !===========  VALUES =========== */
+
+  .value {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .value-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .value-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .value-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .value-icon-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-purple);
+    border-radius: 4px;
+    height: 112px;
+    margin-bottom: 8px;
+  }
+
+  .value-icon {
+    display: block;
+  }
+
+  /* !===========  VALUES =========== */
+}
