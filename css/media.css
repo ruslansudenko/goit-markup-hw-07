@@ -118,6 +118,13 @@
   }
 
   /* !===========  VALUES =========== */
+  /* * ========== WORK IMAGES ======= */
+
+  .work-galary {
+    display: none;
+  }
+
+  /* ! ========== WORK IMAGES ======= */
   /* * ==========  MODAL WINDOW  ======= */
 
   .backdrop-window {
@@ -223,6 +230,10 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+  }
+
+  .value-text {
+    font-weight: 400;
   }
 
   .value-icon-bg {
