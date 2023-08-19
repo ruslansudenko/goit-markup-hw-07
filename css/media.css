@@ -146,9 +146,24 @@
   /* ! ====  CUSTOMERS  ==== */
   /* ! ==== FOOTER ==== */
 
+  .footer {
+    text-align: start;
+  }
+
+  .footer-subscribe {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .footer-cotainer {
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
+  }
+
+  .left-side-footer {
+    margin-right: 24px;
   }
 
   .footer-text {
@@ -158,6 +173,14 @@
   .footer-subscribe-form {
     display: flex;
     gap: 24px;
+  }
+
+  .footer-subscribe-input {
+    width: 264px;
+  }
+
+  .footer-subscribe-btn {
+    margin-right: 43px;
   }
 
   /* * ==== FOOTER  ==== */
@@ -330,7 +353,11 @@
 
   /* !====  CUSTOMERS  ==== */
 
-  /* !====  FOOTER  ==== */
+  /* *====  FOOTER  ==== */
+
+  .footer-cotainer {
+    flex-wrap: nowrap;
+  }
 
   .left-side-footer {
     margin-right: 120px;
@@ -341,5 +368,9 @@
     align-items: end;
   }
 
-  /* *====  FOOTER  ==== */
+  .footer-subscribe-btn {
+    margin-right: auto;
+  }
+
+  /* !====  FOOTER  ==== */
 }
