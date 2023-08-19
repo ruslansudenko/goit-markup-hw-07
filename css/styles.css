@@ -340,29 +340,13 @@ img {
 /* !=================== WORK IMAGES ================== */
 
 .work-galary {
-  padding-bottom: 120px;
-}
-
-.work-galary-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
-.work-galary-title {
-  margin-bottom: 72px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--title-color);
+  display: none;
 }
 
 /* !======================= OUR TEAM ===================== */
 
 .team-item {
+  width: 264px;
   display: block;
   background-color: var(--white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -371,8 +355,8 @@ img {
 }
 .team {
   background-color: var(--light-purple);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .employee-card {
@@ -381,7 +365,8 @@ img {
 
 .team-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   gap: 24px;
 }
 
@@ -447,8 +432,8 @@ img {
 /* !================   CUSTOMERS   ================== */
 
 .customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   justify-content: center;
 }
 
@@ -469,8 +454,9 @@ img {
 
 .customers-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .customers-list-link {
@@ -478,7 +464,7 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--customers);
-  width: 168px;
+  width: 190px;
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -503,6 +489,7 @@ img {
   background-color: var(--title-color);
   padding-top: 100px;
   padding-bottom: 100px;
+  text-align: center;
 }
 
 .logo-light {
@@ -522,25 +509,21 @@ img {
 }
 
 .footer-text {
-  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-purple);
+  margin-bottom: 72px;
 }
 
 .footer-cotainer {
-  display: flex;
-  align-items: baseline;
 }
 
 .footer-social-list {
+  justify-content: center;
   display: flex;
   gap: 16px;
-}
-
-.left-side-footer {
-  margin-right: 120px;
+  margin-bottom: 72px;
 }
 
 .footer-list-link:hover,
@@ -559,13 +542,9 @@ img {
 }
 
 .footer-subscribe {
-  margin-left: 80px;
-  align-items: end;
-}
-
-.footer-subscribe-form {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer-subscribe-title {
@@ -584,7 +563,8 @@ img {
   background: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  width: 264px;
+  width: 100%;
+  max-width: 398px;
   height: 40px;
   padding-left: 16px;
   color: var(--light-purple);
@@ -599,6 +579,8 @@ img {
 }
 
 .footer-subscribe-btn {
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
   align-items: center;

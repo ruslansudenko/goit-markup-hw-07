@@ -119,13 +119,49 @@
 
   /* !===========  VALUES =========== */
   /* * ========== WORK IMAGES ======= */
+  /* ! ========== WORK IMAGES ======= */
 
-  .work-galary {
-    display: none;
+  /* !*===========  OUR TEAM  ========= */
+
+  .tiny-container {
+    width: 584px;
+  }
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  /* ! ===========  OUR TEAM  ========= */
+
+  /* * ====  CUSTOMERS  ==== */
+
+  .customers-list {
+    gap: 24px;
   }
 
-  /* ! ========== WORK IMAGES ======= */
-  /* * ==========  MODAL WINDOW  ======= */
+  .customers-list-link {
+    width: 168px;
+  }
+
+  /* ! ====  CUSTOMERS  ==== */
+  /* ! ==== FOOTER ==== */
+
+  .footer-cotainer {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-text {
+    max-width: 264px;
+  }
+
+  .footer-subscribe-form {
+    display: flex;
+    gap: 24px;
+  }
+
+  /* * ==== FOOTER  ==== */
+  /* * ====  MODAL WINDOW  ==== */
 
   .backdrop-window {
     width: 408px;
@@ -251,4 +287,59 @@
   }
 
   /* !===========  VALUES =========== */
+
+  /* *   ========== WORK IMAGES ========= */
+  .work-galary {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .work-galary-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .work-galary-title {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+  }
+
+  /* !============= WORK IMAGES ================== */
+  /* * ==== OUR TEAM ==== */
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* ! ============ OUR TEAM ============ */
+
+  /* *====  CUSTOMERS  ==== */
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* !====  CUSTOMERS  ==== */
+
+  /* !====  FOOTER  ==== */
+
+  .left-side-footer {
+    margin-right: 120px;
+  }
+
+  .footer-subscribe {
+    margin-left: 80px;
+    align-items: end;
+  }
+
+  /* *====  FOOTER  ==== */
 }
