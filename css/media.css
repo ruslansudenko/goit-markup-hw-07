@@ -113,8 +113,12 @@
     gap: 72px 24px;
   }
 
-  .value-item {
+  /* .value-item {
     width: calc((100% - 24px) / 2);
+  } */
+
+  .value-item {
+    flex-basis: calc((100% - 24px) / 2);
   }
 
   /* !===========  VALUES =========== */
@@ -122,6 +126,10 @@
   /* ! ========== WORK IMAGES ======= */
 
   /* !*===========  OUR TEAM  ========= */
+
+  .team-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
 
   .tiny-container {
     width: 584px;
@@ -276,7 +284,7 @@
   }
 
   .value-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
   }
 
   .value-list {
@@ -340,6 +348,10 @@
   .team {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+
+  .team-item {
+    flex-basis: calc((100% - 72px) / 4);
   }
 
   /* ! ============= OUR TEAM ============ */
